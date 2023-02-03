@@ -1,0 +1,888 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CoBro Consulting</title>
+<link rel="icon" href="img/compass.ico">
+<link href="styles.css" rel="stylesheet" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryValidationTextarea.css" rel="stylesheet" type="text/css" />
+<script>
+	(function(i, s, o, g, r, a, m)
+	{
+		i ['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function()
+				{
+				  (i[r].q = i[r].q||[]).push(arguments)
+				} ,i[r].l = 1*new Date();
+		a = s.createElement (o),
+  		m = s.getElementsByTagName(o) [0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a,m)
+	  }
+	)
+
+	(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-4782508-1', 'cobroconsulting.com');
+  ga('send', 'pageview');
+</script>
+<script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryValidationTextarea.js" type="text/javascript"></script>
+<script>
+	var s = [];
+	var t = [];
+<!-- View Student Information-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home)" + "</b>" + "page, select a student by clicking the " + "<b>" + "Expand Arrow (>) " + "</b>" + "to the left of the student's name. You may also click on the student name or student ID to expand the data." +  "</li>" +
+
+"<li>" + "The  " + "<b>" + "Student Information " + "</b>" + "screen will appear, containing all demographic and academic data about the student that is stored in Compass." +  "</li>" +
+
+"<li>" + "The  " + "<b>" + "Student Information  " + "</b>" + "screen contains seven tabs:   " + "<b>" + "Demographics, Parents, Academics, Testing, School History, GPA, Services. " + "</b>" + "</li>" + 
+"<p><ol type = a>" + 
+"<li>" + "The " + "<b>" + "Demographics " + "</b>" + "tab shows information about the student, such as their address, gender, ethnicity, school, grade level, and dates of program participation." +  "</li>" +
+
+"<li>" + "The " + "<b>" + "Parent " + "</b>" + "tab shows the parents or guardians associated with the student." +  "</li>" + 
+
+"<li>" + "The " + "<b>" + "Academics " + "</b>" + "tab presents student academic information such as classes and absences. The Testing tab provides test scores of students. For the majority of GEAR UP programs that use these tabs, CoBro Consulting data technicians upload the information presented on these screens." +  "</li>" + 
+"<li>" + "The " + "<b>" + "School History " + "</b>" + "tab displays information about each school in which the student has been, and is currently, enrolled." +  "</li>" + 
+
+"<li>" + "The " + "<b>" + "GPA " + "</b>" + "tab displays student GPA information, filtered by school year." + "<li>" 
++ "The " + "<b>" + "Services " + "</b>" + "tab displays a history of services provided to the student, the date, and hours for each service." + 
+"</ol></p>" +
+
+"<li>" + "Student data can be viewed, added, or edited from the tabs described above." + "</li></ol>");
+<!-- Add Student Academic Information-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select a student by clicking the " + "<b>" + "Expand Arrow (>) " + "</b>" + "to the left of the student's name. You may also click on the student name or student ID to expand the data." + 
+"<li>" + "The " + "<b>" + "Student Information " + "</b>" + "screen will appear, containing all demographic and academic data about the student that is stored in Compass. " + 
+"<li>" + "Select the tab that contains the academic data you would like to add. New records can be added to the following tabs: " + "<b>" + "Academics, Testing, School History,  and GPA." + "</b>" + 
+"<li>" + "Click " + "<b>" + "Edit " + "</b>" + "at the bottom of the screen you selected."  +
+"<li>" + "Click Add a " + "<b>" + "New Record." + "</b>" +
+"<li>" + "Enter the new academic data. Mandatory fields will be underlined in red. " + 
+"<li>" + "Click " + "<b>" + "Save. " + "</b>" + "</li></ol>"
+);
+<!-- Edit Student Information-->	
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home)" + "</b>" + " page, select a student by clicking the" + "<b>" + " Expand Arrow (>) " +  "</b>" + "to the left of the student's name. You may also click on the student name or student ID to expand the data." + 
+"<li>" + "The " + "<b>" + "Student Information" + "</b>" + "screen will appear, containing all demographic and academic data about the student that is stored in Compass. " + 
+"<li>" + "Select the tab that contains the data you would like to edit. " +
+"<li>" + "Click " + "<b>" + "Edit " + "</b>" + "at the bottom of the tab you selected to edit the student information. " +
+"<li>" + "Make the desired modifications. " +
+"<li>" + "Click " + "<b>" + "Update." + "</b>" + "</li></ol>"
+);
+<!-- Add a New Student -->
+	s.push("<ol><li>" + "At the " + "<b>" + "Student Information (Home) " + "</b>" + "page, in the top section, above the listing of all students there is a blue button that says " + "<b>" + "New Student." + "</b>" + "</li>" +
+"<li>" + "Click " + "<b>" + "New Student." + "</b>" + "</li>" +
+"<li>" + "Enter information on the new student. Mandatory information will be marked with a red underline. Mandatory fields for this screen are First Name, Last Name, Unique Student ID, Race, Date of Birth, School, Start Date, and Grade Level.  New student will not save unless all required information has been entered." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Save." + "</b>" + "</li></ol>");
+<!-- Make a Student Inactive-->	
+	s.push("<p>" + "When a student leaves your school, you will need to make them inactive in the system. This is done by entering an end date in the school history tab." + "</p>" +
+"<ol><li>" + "Go to the " + "<b>" + "Student Information (Home) page." + "</b>" + "</li>" +
+"<li>" + "Select the student." + "</li>" +
+"<li>" + "Choose the " + "<b>" + "School History" + "</b>" + " tab." + "</li>" +
+"<li>" + "Click " + "<b>" + "Edit." + "</b>" + "</li>" +
+"<li>" + "Choose the listing of the school the student is currently enrolled...should be your school, this school year...click " + "<b>" + "Edit." + "</b>" + "</li>" +
+"<li>" + "Enter the end date. An entry in the end date field is what indicates to the system that the student is inactive, even if the end date is in the future." + "</li>" +
+"<li>" + "Click " + "<b>" + "Update." + "</b>" + "</li></ol>");
+<!-- Search for a Student-->
+	s.push("<ol><li>" + "Start at the " + "<b>" + "Student Information (Home) " + "</b>" + "page. You will search for students on this page." +
+"<li>" + "At the top of the page, students can be filtered by " + "<b>" + "Region, School, and Grade Level" + "</b>" + ". Leave filters unselected to search all students. " +
+"<li>" + "To search by District ID, type the specific District ID into the " + "<b>" + "Search by District ID" + "</b>" + " box and click Search." +
+"<li>" + "To search by School ID, type the specific School ID into the " + "<b>" + "Search by School ID " + "</b>" + " box and click Search." +
+"<li>" + "To search by name, start typing the student’s first or last name in the drop-down menu. A list will appear with students whose names match the search criteria. You may select the student directly from the list or click the " + "<b>" + "Search" + "</b>" + " button to display all the names listed on the "+ "<b>" + "Student Information (Home)" + "</b>" + "screen." +
+"<li>" + "The search will default to students active in the system. To search for inactive students, please see " + "<i>" +"Search an Inactive Student. " + "</i>" + "</li></ol>"
+);
+<!-- Search an Inactive Student-->
+	s.push("<p>" + "Students with an end date in their current school history entry will be recognized by the system as inactive." + "</p>" +
+"<ol><li>"+ "Go to the " + "<b>" + "Student Information (Home) page." + "</b>" + "</li>" +
+"<li>" + "Select the " + "<b>" + "Inactive" + "</b>" + " or " + "<b>" + "All" + "</b>" + " radial button. If you are searching for an inactive student without one of these options selected the student will not appear in your search." + "</li>" +
+"<li>" + "Select the appropriate filters to search for the student." + "</li>" +
+"<li>" + "Click " + "<b>" + "Search." + "<b>" + "</li></ol>");
+<!-- Reactivate a Student-->
+	s.push("<ol><li>" + "Go to the " + "<b>" + "Student Information (Home)" + "</b>" + " page." + "</li>" +
+"<li>"+ "To find an inactive student search for the student using appropriate filters, with the " + "<b>" + "Inactive " + "</b>" + "or " + "<b>" + "All " + "</b>" + "radial button selected. If you are searching for an inactive student without one of these options selected the student will not appear in your search." + "</li>" +
+"<li>" + "Once you have found the inactive student, Select the student." + "</li>" +
+"<li>" + "Choose the " + "<b>" + "School History " + "</b>" + "tab." + "</li>" +
+"<li>" + "Click " + "<b>" + "Edit." + "</b>" + "</li>" + 
+"<li>" + "Click " + "<b>" + "Add New Record " + "</b>" +  "near the top left of the screen. Even if the student is being reactivated at the same school, , make a new entry with the new start date." + "</li>" +
+"<li>" + "Enter the required information, indicated by red underlining. Be sure that there is " + "<b>" + "NO END DATE" + "</b>" + " included in the current entry. If there is an end date included, the student will be recognized as inactive, despite of the date in the end date field." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Update." + "</b>" +
+"</li></ol>");
+<!-- Add a Student Group->>
+	s.push("<ol><li>" + "From the " + "<b>" +  "Student Information (Home) " + "</b>" +  "page, select the " + "<b>" + "Student Groups " + "</b>" +  "link under the " + "<b>" +  "STUDENTS " + "</b>" +  "section on the right." + "</li>" +
+"<li>" + "Enter the " + "<b>" +  "Name " + "</b>" +  "of the Student Group and the " + "<b>" +  "School." + "</b>" + "</li>" +
+"<li>" + "Click " + "<b>" +  "Enter." + "</b>" +  " Your student group has been added." + "</li></ol>");
+<!-- Add a Student to an Existing Student Group-->
+	s.push("<ol><li>" + "From the " + "<b>" +  "Student Information (Home) " + "</b>" +  "page, select the " + "<b>" +  "Student Group " + "</b>" +  "link under the " + "<b>" +  "STUDENTS " + "</b>" +  "section on the right." + "</li>" + 
+"<li>" + "A list of existing student groups will be listed in blue." + "</li>" +
+"<li>" + "Choose the student group you would like to add the students to. Click " + "<b>" +  "Edit." + "</b>" + "</li>" +
+"<li>" + "Next choose the grade of the students who you would like to add to your list. Students will appear in the      " + "<b>" + "Unassigned " + "</b>" + "box." + "</li>" + 
+"<li>" + "Assign students to the group by selecting the student, then moving them to the " + "<b>" +  "Assigned " + "</b>" +  "box by clicking the single arrow. Or, move all students by selecting the double arrow." + "</li>" +  
+"<li>" + "Click " + "<b>" +  "Save." + "</b>" + "</li>" +  
+"<li>" + "A red notification will appear that the selected students have been successfully added to the group." + "</li></ol>");
+<!-- Enter Services to Students-->
+	s.push("<ol><li>" + "From the " + "<b>" +  "Student Information (Home) " + "</b>" + "page, select the " + "<b>" +  "Student Services " + "</b>" + "link under the " + "<b>" +  "STUDENTS " + "</b>" + "section on the right." + "</li>" +   
+"<li>" + "Select the " + "<b>" + "Service Category " + "</b>" + "from the drop down." + "</li>" +
+"<li>" + "Enter the number of hours, date of the activity and any additional information." + "</li>" +
+"<li>" + "Select the school in which the students who participated attend. (If you only have school level access, you will not need to select the school, as they will already be selected for you.) You may also filter by grade or student group if needed." + "</li>" + 
+"<li>" + "Under the " + "<b>" +  "Unassigned " + "</b>" + "box, all students in the school, grade, or student group you have selected will appear." + "</li>" +  
+"<li>"+ "To move over ALL students in the " + "<b>" +  "Unassigned " + "</b>" + "box, click the double arrow." + "</li>" +  
+"<li>" + "To move over only selected students, click the student's name followed by the single arrow. You may also select multiple students by holding down the Ctrl key on your keyboard (command for MAC users) and selecting students." + "</li>" +   
+"<li>" + "Students who participated in the service/activity will now be located in the " + "<b>" +  "Assigned " + "</b>" + "box." + "</li>" +    
+"<li>"+ "Click " + "<b>" +  "Save." + "</b>" + "</li>" +     
+"<li>" + "A red notification will appear that your service has been entered successfully. If there is an error, the system will provide notification." + "</li></ol>");
+<!-- View and Enter Student Services from Services Tab-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select a student by clicking the " + "<b>" + "Expand Arrow (>) " + "</b>" + "to the left of the student's name. " +
+"<li>" + "Click the " + "<b>" + "Services " + "</b>" + "tab. " +
+"<li>" + "Click " + "<b>" + "New Services " + "</b>" + "at the bottom left of the screen. A service window will appear. " +
+"<li>" + "Enter the new Service information in the fields provided. Mandatory fields include Service Category, Sub Category, School, and Hours." + 
+"<li>" + "Click " + "<b>" + "Enter " + "</b>" + "to save the new service entry." + 
+"<li>" + "A notification will appear that the service has been entered successfully. If there is an error, the system will provide notification. " + "</li></ol>"
+);
+<!-- Enter Services to Student Groups-->
+	s.push("<ol><li>" + "From the " + "<b>" +  "Student Information (Home) " + "</b>" + "page, select the " + "<b>" +  "Student Services " + "</b>" +  "link under the " + "<b>" +  "STUDENTS " + "</b>" + "section on the right." + "</li>" +      
+"<li>" + "Select the activity name from the drop down." + "</li>" +      
+"<li>" + "Enter the number of hours, date of the activity and any additional information." + "</li>" +      
+"<li>" + "Select the school in which the students who participated attend. (If you only have school level access, you will not need to select the school, as they will already be selected for you.) You may also filter by grade or student group if needed." + "</li>" +       
+"<li>" + "Select the group of students who participated in the service. See directions on how to add student groups to set this up." + "</li>" + "<li>" + "Once you select the group, all of the students assigned to that group will automatically appear in the " + "<b>" +  "Assigned " + "</b>" + "box." + "</li>" +   "<li>" + "If any students did not attend that particular activity, you can move them back to the " + "<b>" +  "Unassigned " + "</b>" + "box. To move over only selected students, click the student's name followed by the single arrow. You may also select multiple students by holding down the Ctrl key on your keyboard (command for MAC users) and selecting students." + "</li>" +
+"<li>" + "Click " + "<b>" +  "Save." + "</b>" + "</li></ol>");
+<!-- Edit or Update a Student Service Entry-->
+	s.push("<ol><li>" + "From the " + "<b>" +  "Student Information (Home) " + "</b>" + "page, select the " + "<b>" + "Service Search/Edit " + "</b>" +  "link under the " + "<b>" +  "STUDENTS " + "</b>" + "section on the right." + "</li></ol>" + 
+"<p>" + "<b>" +  "Edit Individual Entries" + "</b>" + "</p>" +
+"<ol><li>" + "Use the filters to search for the original entry that needs to be edited." + "</li>" +         
+"<li>" + "Once the entry has been found, click " + "<b>" +  "Edit" + "</b>" + ", found to the left of the entry." + "</li>" +         
+"<li>" + "Make any appropriate changes to the entry." + "</li>" +         
+"<li>" + "Click " + "<b>" +  "Update." + "</b>" + "</li></ol>" +
+"<p>" + "<b>" +  "To Batch Edit Entries" + "</b>" + "</p>" +
+"<ol><li>"+ "Use the filters to search for the original entries that need to be edited. Use as many filters as necessary so that only the entries to be updated are included in the results window. The system will tell you how many entries were found."+ "</li>" +
+"<li>" + "Scroll down to the section that says Update Entries in Batches."+ "</li>" +
+"<li>"+ "Check the box next to the information within the entry you would like to edit (i.e. hours, name, etc). Multiple updates can be made at one time."+ "</li>" + 
+"<li>"+ "Enter the updated information into the fields that have been checked."+ "</li>" + 
+"<li>"+ "Click " + "<b>" +  "Update." + "</b>" + "</li>" + 
+"<li>"+ "The system will ask if you want to update the entries, and the number of entries that will be updated. If this information is correct, click " + "<b>" +  "ok." + "</b>" + "</li>" + 
+"<li>"+ "The system message will appear that the entries have been updated." + "</li></ol>");
+<!-- Add Student Academic Information via Batch Entry-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select the  " + "<b>" + "Student Info Batch Entry " + "</b>" + "link under the  " + "<b>" + "STUDENTS " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "The  " + "<b>" + "Student Info Batch Entry" + "</b>" + " screen will appear, containing multiple filters and options for data entry. Select the appropriate filters that will apply to the group of students." + "</li>" + 
+"<li>" + "Select the  " + "<b>" + "School, Grade level" + "</b>" + ", and/or  " + "<b>" + "Group " + "</b>" + "that the data will apply. Students will appear in the  " + "<b>" + "Unassigned box." + "</b>" + "</li>" + 
+"<li>" + "To move over ALL students in the  " + "<b>" + "Unassigned " + "</b>" + "box, click the double arrow." + "</li>" + 
+"<li>" + "To move over only selected students, click the student's name followed by the single arrow. You may also select multiple students by holding down the Ctrl key on your keyboard (command for MAC users) and selecting students." + "</li>" + 
+"<li>" + "Students who the data is t	o be assigned to will now be located in the  " + "<b>" + "Assigned " + "</b>" + "box." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Save." + "</li>" + 
+"<li>" + "A red notification will appear that data for the selected students has been successfully updated." + "</li></ol>");
+<!-- Add a New Parent and Assign to Student-->
+	s.push("<ol><li>" + "At the " + "<b>" +  "Student Information (Home) " + "</b>" + "page, click on the student whose parent you wish to add."+ "</li>" + 
+"<li>" + "Select the " + "<b>" +  "Parents " + "</b>" + "tab."+ "</li>" + 
+"<li>" + "Scroll to the bottom and click " + "<b>" +  "Edit" + "</b>" + ", then click " + "<b>" +  "Assign" + "</b>" + ", then " + "<b>" +  "New." + "</b>" + "</li>" + 
+"<li>" + "Enter the parent's information."+ "</li>" + 
+"<li>" + "Click ok to assign the parent to the student."+ "</li>" + 
+"<li>" + "Click close to exit the parent list."+ "</li>" + 
+"<li>" + "Click close to exit the parent information window."+ "</li></ol>"  + 
+"<p>" + "Once you have entered all of the parents, you can begin to enter services to parents, just as you would your student services." + "</p>");
+<!-- Assign an Existing Parent to a Student-->
+	s.push("<ol><li>" + "At the " + "<b>" + "Student Information (Home) " + "</b>" + "page, click on the student whose parent you wish to add." + "</li>" + "<li>" + "Select the " + "<b>" + "Parents " + "</b>" + "tab." + "</li>" + "<li>" + "Scroll to the bottom and click " + "<b>" + "Edit" + "</b>" + ", then click " + "<b>" + "Assign." + "</b>" + "</li>" + "<li>" + "Select school to filter the list of parents. Choose existing parent from the " + "<b>" + "Parent " + "</b>" + "drop down box." + "</li>" + "<li>" + "Click " + "<b>" + "Assign " + "</b>" + "to assign the parent to the student." + "</li>" + "<li>" + "Click close to exit the parent list." + "</li>" + "<li>" + "Click close to exit the parent information window." + "</ol></li>");
+<!-- Enter Services to Parents-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select the " + "<b>" + "Parent Services " + "</b>" + "link under the " + "<b>" + "PARENTS " + "</b>" + "section on the right." + "</li>" +
+"<li>" + "Select the activity/service name from the drop down." + "</li>" +
+"<li>" + "Enter the number of hours, date of the activity and any additional information." + "</li>" +
+"<li>" + "Select the school in which the students who's participated attend. (If you only have school level access, you will not need to select the school, as they will already be selected for you.) You may also filter by grade, student group, student name or parent name if needed." + "</li>" +
+"<li>" + "Under the " + "<b>" + "Unassigned " + "</b>" + "box, all parents with students in the school, grade, or student group you have selected will appear." + "</li>" + 
+"<li>" + "To move over ALL parents in the " + "<b>" + "Unassigned " + "</b>" + "box, click the double arrow." + "</li>" +  
+"<li>" + "To move over only selected parents in the " + "<b>" + "Unassigned " + "</b>" + "box, click the parent's name followed by the single arrow. You may also select multiple parents by holding down the Ctrl key on your keyboard (command for MAC users) and selecting parents." + "</li>" +   
+"<li>" + "Parents who participated in the service/activity will now be located in the " + "<b>" + "Assigned " + "</b>" + "box." + "</li>" +   
+"<li>" + "Click " + "<b>" + "Save." + "</b>" + "</li>" +    
+"<li>" + "A red notification will appear that your service has been entered successfully. If there is an error, the system will provide notification." + "</ol></li>");
+<!-- Edit or Update a Parent Service Entry-->
+	s.push("<p>" + "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select the " + "<b>" + "Service Search/Edit " + "</b>" + "link under the " + "<b>" + "Parents " + "</b>" + "section on the right." + "</p>" +
+"<p>" + "<b>" + "To Edit Individual Entries" + "</b>" + "</p>" +
+"<ol><li>" + "Use the filters to search for the original entry that needs to be edited." + "</li>" +
+"<li>" + "Once the entry has been found, click " + "<b>" + "Edit" + "</b>" + ", found to the left of the entry." + "</li>" +
+"<li>" + "Make any appropriate changes to the entry." + "</li>" +
+"<li>" + "Click " + "<b>" + "Update." + "</b>" + "</li>" +
+"<p>" + "<b>" + "To Batch Edit Entries." + "</b>" + "</p>" +
+"<ol><li>" + "Use the filters to search for the original entries that need to be edited. Use as many filters as necessary so that only the entries to be updated are included in the results window. The system will tell you how many entries were found." + "</li>" +
+"<li>" + "Scroll down to the section that says Update Entries in Batches." + "</li>" +
+"<li>" + "Check the box next to the information within the entry you would like to edit (i.e. hours, name, etc). Multiple updates can be made at one time." + "</li>" + 
+"<li>" + "Enter the updated information into the fields that have been checked." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Update." + "</b>" + "</li>" + 
+"<li>" + "The system will ask if you want to update the entries, click " + "<b>" + "ok." + "</b>" + "</li>" + 
+"<li>" + "The system message will appear that the entries have been updated." + "</ol></li>");
+<!-- Add a Parent Group-->
+	s.push("<ol><li>" + "From the  " + "<b>" + "Student Information (Home) " + "</b>" + "page, select the " + "<b>" + "Parent Groups " + "</b>" + "link under the  " + "<b>" + "Parents  " + "</b>" + "section on the right. " + "</li>" +
+"<li>" + "At the top of the page, under " + "<b>" + "Add Group" + "</b>" + ", enter the " + "<b>" + "Name " + "</b>" + "of the parent group and the " + "<b>" + "School." + "</b>" + "</li>" +
+"<li>" + "Click " + "<b>" + "Enter" + "</b>" + ". Your parent group has been added. " + "</li></ol>");
+<!-- Add a Student to an Existing Parent Group-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home)" + "</b>" + " page, select the " + "<b>" + "Parent Group " + "</b>" + "link under the " + "<b>" + "Parents " + "</b>" + "section on the right. " + "</li>" + 
+"<li>" + "Under the Add a Group box, a list of existing parent groups will be listed in blue. The list of parent groups can be filtered by school. " + "</li>" +
+"<li>" + "Choose the parent group you would like to add parents to. Click  " + "<b>" + "Select. " + "</b>" + "Parents already assigned to the group will appear in the assigned box. " + "</li>" +
+"<li>" + "Next choose the school of the students of the parents you would like to add. Parents assigned to students in that school will appear in the " + "<b>" + "Unassigned " + "</b>" + "box. " + "</li>" +
+"<li>" + "Assign parents to the group by selecting the parent, then moving them to the  " + "<b>" + "Assigned " + "</b>" + "box by clicking the single arrow. Or, move all parents by selecting the double arrow. " + "</li>" +
+"<li>" + "Click " + "<b>" + "Save." + "</b>" + "</li>" +
+"<li>" + "A red notification will appear that the selected students have been successfully added to the group. " + "</li></ol>");	
+<!-- Add an Instructor-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home)" + "</b>" + " page, select the " + "<b>" + "Add/View Instructors " + "</b>" + "link under the " + "<b>" + "Instructors " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Enter the required information for the instructor. Provide as much detail as possible including Instructor ID, discipline and service participation information." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Save" + "</b>" + ". Your instructor has been added." + "</li></ol>");
+<!-- Enter Services to Instructors-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home)" + "</b>" + " page, select the " + "<b>" + "Training " + "</b>" + "link under the " + "<b>" + "Instructors " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Enter details about the training including name, date and number of hours." + "</li>" + 
+"<li>" + "Select the school in which the instructors teach. (If you only have school level access, you will not need to select the school, as they will already be selected for you.)" + "</li>" +  
+"<li>" + "Under the " + "<b>" + "Unassigned " + "</b>" + "box, all instructors in the school  you have selected will appear." + "</li>" +   
+"<li>" + "To move over ALL instructors in the " + "<b>" + "Unassigned " + "</b>" + "box, click the double arrow." + "</li>" +    
+"<li>" + "To move over only selected instructors in the " + "<b>" + "Unassigned " + "</b>" + "box, click the instructor's name followed by the single arrow. You may also select multiple instructors by holding down the Ctrl key on your keyboard (command for MAC users) and selecting instructors." + "</li>" +     
+"<li>" + "Instructors who participated in the training will now be located in the " + "<b>" + "Assigned " + "</b>" + "box." + "</li>" +      
+"<li>" + "Click " + "<b>" + "Enter." + "</b>" + "</li>" +       
+"<li>" + "A red notification will appear that your service has been entered successfully. If there is an error, the system will provide notification." + "</li></ol>");
+<!-- How to Edit or Update a Instructor Service Entry-->
+	s.push("<p>" + "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select the " + "<b>" + "Service Search/Edit " + "</b>" + "link under the " + "<b>" + "Instructors  " + "</b>" + "section on the right." + "</p>" +
+"<p>" + "<b>" + "To Edit Individual Entries" + "</b>" + "</p>" +
+"<ol><li>" + "Use the filters to search for the original entry that needs to be edited." + "</li>" +
+"<li>" + "Once the entry has been found, click " + "<b>" + "Edit" + "</b>" + ", found to the left of the entry." + "</li>" +
+"<li>" + "Make any appropriate changes to the entry." + "</li>" +
+"<li>" + "Click " + "<b>" + "Update." + "</b>" + "</li>" +
+"<p>" + "<b>" + "To Batch Edit Entries." + "</b>" + "</p>" +
+"<ol><li>" + "Use the filters to search for the original entries that need to be edited. Use as many filters as necessary so that only the entries to be updated are included in the results window. The system will tell you how many entries were found." + "</li>" +
+"<li>" + "Scroll down to the section that says Update Entries in Batches." + "</li>" +
+"<li>" + "Check the box next to the information within the entry you would like to edit (i.e. hours, name, etc). Multiple updates can be made at one time." + "</li>" + 
+"<li>" + "Enter the updated information into the fields that have been checked." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Update." + "</b>" + "</li>" + 
+"<li>" + "The system will ask if you want to update the entries, click " + "<b>" + "ok." + "</b>" + "</li>" + 
+"<li>" + "The system message will appear that the entries have been updated." + "</ol></li>");
+
+<!-- Add New Users to Compass-->
+	s.push("<p>" + "To enter a new Compass user, you will need the following information from the user - First name, last name and e-mail address." + "</p>" +        
+"<ol><li>" + "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select the " + "<b>" + "System Utility " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" +
+"<li>" + "Select " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "My Compass." + "</b>" + "</li>" +        
+"<li>" + "Within " + "<b>" + "My Compass " + "</b>" + "click " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "Add User." +"</b>" +  "</li>" +
+"<li>" + "Complete the required information. Required information is " + "<b>" + "First Name, Last Name" + "</b>" + ", and " + "<b>" + "Email Address" + "</b>" + ". Select level of access." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Add" + "</b>" + "." + "</li>" + 
+"<li>" + "A system notification will appear that the new user has been added. The user will receive their log-in information to the email address provided within 24 hours." + "</li></ol>");
+<!-- Inactivate a User-->	
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select the " + "<b>" + "System Utility " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" +         
+"<li>" + "Select " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "My Compass." + "</b>" + "</li>" +
+"<li>"+ "Within " + "<b>" + "My Compass " + "</b>" + "click " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + 
+"Manage User." + "</b>" + "</li>" + 
+"<li>" + "Scroll down to the section called " + "<b>" + "User Information." + "</b>" + "</li>" +
+"<li>" + "Find the user you wish to inactivate and click " + "<b>" + "Edit." + "</b>" + "</li>" +
+"<li>" + "Once editing is engaged, click the box to lock/inactivate the user." + "</li>" +
+"<li>" + "Click " + "<b>" + "Update." + "</b>" + "</li></ol>");
+<!-- Unlock a User-->
+	s.push("<p>" + "In the case that a user attempts to enter an incorrect password too many times, the system will automatically lock/inactivate their user login information. A system administrator can unlock/reactivate the user by following the steps below." + "</p>" +
+"<ol><li>" + "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select the " + "<b>" + 
+"System Utility " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" +
+"<li>" + "Select " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "My Compass." + "</b>" + "</li>" +
+"<li>" + "Within " + "<b>" + "My Compass " + "</b>" + "click " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + 
+"Manage User." + "</b>" +"</li>" + 
+"<li>" + "Scroll down to the section called " + "<b>" + "User Information." + "</b>" + "</li>" +
+"<li>" + "Find the user you wish to unlock/reactivate and click " + "<b>" + "Edit." + "</b>" + "</li>" +
+"<li>" + "Once editing is engaged, uncheck the box to unlock/reactivate the user." + "</li>" +
+"<li>" + "Click " + "<b>" + "Update." + "</b>" + "</li></ol>");
+<!-- Retrieve Your Password-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Login " + "</b>" + "page, select the " + "<b>" + "Forgot Password " + "</b>" + "link in the top left corner of the page." + "</li>" +
+"<li>" + "Enter your " + "<b>" + "user name " + "</b>" + "and the system will send your password to the email address that is stored in the system." + "</li></ol>");
+<!-- Change Your Password-->
+	s.push("<ol><li>"+ "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select the " + "<b>" + 
+	"System Utility " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" +
+"<li>" + "Select " + "<b>" + "Go" + "</b>" + " next to " + "<b>" + "My Compass" + "</b>" + "</li>" + 	
+"<li>" + "Select " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "Change My Password." + "</b>" + "</li>" +
+"<li>" + "Enter your current password, and new password twice." + "</li>" +
+"<li>" + "Click " + "<b>" + "Change Password." + "</b>" + "</li></ol>");
+<!-- Add Announcements -->
+	s.push("The Announcements feature allows users with administrative status to post messages on the Compass Login screen. Posted announcements are visible to all users." + "<br><br>" +
+"<ol><li>" + "From the " + "<b>" + "Student Information (Home) page " + "</b>" + ", select the " + "<b>" + "System Utility" + "</b>" + " link under the " + "<b>" + "System Tools" + "</b>"+ " section on the right." + "</li>" + 
+"<li>" + "Select " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "My Compass" + "</b>" + "." + "</li>" + 
+"<li>" + "Select " + "<b>" + "Go " + "</b>" + "next to  " + "<b>" + "Announcements" + "</b>" + "." + "</li>" + 
+"<li>" + "Type the announcement into the space provided under the Add Announcement heading." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Add" + "</b>" + ". A confirmation message will appear to inform you the announcement has been added successfully." + "</li>" + "<br><br>" + 
+"If text is already posted." + "<br><br>" + 
+"<li>" + "Click " + "<b>" + "Reset " + "</b>" + "to clear existing text in the window and type a new announcement." + "</li>" + 
+"<li>" + "To modify an announcement, click EDIT to the left of the message you want to modify." + "</li>" + 
+"<li>" + "Select the " + "<b>" + "Visible " + "</b>" + "option to make the announcement visible to Compass users, or unselect the Visible option to remove the announcement from the Login page. " + "</li>" + 
+"<li>" + "Click " + "<b>" + "Update " + "</b>" + "after the desired changes have been made." + "</li></ol>");
+<!-- Email All Users  -->
+	s.push("<ol><li>" + " From the " + "<b>" + "Student Information (Home) page " + "</b>" + ", select the " + "<b>" + "System Utility " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Select " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "My Compass" + "</b>" + "." + "</li>" + 
+"<li>" + "Select " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "Email to Users" + "</b>" + "." + "</li>" + 
+"<li>" + "Select user email addresses from the Region, District, or School filters provided. Additional email addresses can be added in the box provided. " + "</li>" + 
+"<li>" + "Add an email subject, and message to the body of the email. " + "</li>" + 
+"<li>" + "Click " + "<b>" + "Send. " + "</b></li>" +
+"<li>" + "A red system notification will appear to confirm that the email was sent successfully." + "</li></ol>");
+<!-- Upload a File-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select the " + "<b>" + "Data Center " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" +
+"<li>" + "Select " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "Upload Site." + "</b>" + "</li>" +
+"<li>" + "Enter your user information on the login page. This information was provided to you by CoBro Consulting. If you do not have this login information, please contact customer support at support@cobroconsulting.com." + "</li>" + 
+"<li>" + "Once you log in you will see the main upload page. From here you have two options for uploading your data." + "</li>" + 
+"<li>" + "After a successful upload by either option, you will receive an email conformation that CoBro Consulting has received your file." + "</li></ol>" +
+"<p>" + "Option A, Drag and Drop: The easiest option and has the least amount of steps. Simply drag the file you wish to upload, just like you would drag a document into an email.  Once the file has been imported to the website, you will see it in a list below the drag and drop box.  From here you can confirm your upload or cancel.  If you selected the wrong file you can always abort the upload, by selecting cancel (highlighted in red below).  If you wish to continue with the upload, choose start (highlighted in green).Once the file has been uploaded, you can upload additional files or delete your previous uploads." + "</p>" + 
+"<p>" + "Option B, Select Files: By clicking on the ‘Select Files’ button, you can upload files directly from your computer. Once you have selected the file(s) you want to upload. Click open.  After the files have been uploaded to the site, you can select the same options as in the Drag and Drop upload option." + "</p>");
+
+<!-- Activate Non-Working Buttons/Icons-->
+	s.push("<p>" + "For Internet Explorer Users ONLY" + "</p>" +  
+"<p>" + "If you click on an icon or button and it does not work in Compass, you may check the compatibility of your browser.  You can enable compatibility view in IE in order to ensure compatibility of your browser." + "</p>" +   
+"<ol><li>" + "To enable this Icon on Internet Explorer 9, click on the 'torn page' icon in the URL bar." + "</li>" +  
+"<li>" + "The icon will look like this:&nbsp;&nbsp;" + "<img src=img/activate_button.jpg>" + "</li>" +  
+"<li>" + "The icon should go from grey to blue when activated. All compass buttons will reactivate." + "</li></ol>");
+<!-- Assign Class Level-->
+	s.push("<p>" + "Class level identifies  courses that are advanced and non-advanced. The level categories include Non-Advanced, Advanced, IB, Honors, AP, College. These level identifiers are determined by each program's unique district or school classifications." + "</p>" +
+"<ol><li>" + "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select the " + "<b>" + 
+"Data Center " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" +
+"<li>" + "Select " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "Class Level." + "</b>" + "</li>" +
+"<li>" + "Select the school in which you will be assigning classes for. When a school is selected, every class that has been submitted via student transcripts will be listed in the classes box." + "</li>" + 
+"<li>" + "You may also filter by grade level." + "</li>" + 
+"<li>" + "Select " + "<b>" + "No Level " + "</b>" + "from the " + "<b>" + "Course Level " + "</b>" + "drop down. This will pull all courses that do not currently have a level assigned to them." + "</li>" +
+"<li>" + "Classes with no level assigned will appear in the " + "<b>" + "Classes box." + "</b>" + "</li>" + 
+"<li>" + "Decide on the first category you will assign, for example, " + "<b>" + "Advanced." + "</b>" + "</li>" + 
+"<li>" + "Select and move any advanced courses to the " + "<b>" + "Assign Level " + "</b>" + "box. You will assign course levels JUST as you would assign students to a service within COMPASS. To move over only selected courses, click the course name followed by the single arrow. You may also select multiple courses by holding down the Ctrl key on your keyboard (command for MAC users) and selecting courses." + "</li>" + 
+"<li>" + "Courses to be assigned " + "<b>" + "Advanced " + "</b>" + "will now be located in the " + "<b>" + 
+"Assign Level box." + "</b>" + "</li>" + 
+"<li>" + "Select the level to assign to the courses from the " + "<b>" + "Level to Assign " + "</b>" + "drop down." + "</li>" +
+"<li>" + "Click " + "<b>" + "UPDATE. " + "</b>" + "Now your courses have been assigned a level." + "</li>" +
+"<li>" + "Repeat this process with each level, ensuring there are no classes left in the " + "<b>" + "No Level " + "</b>" + "category. All courses should have a level assigned to them." + "</li>" +
+"<p>" + "Course Level Review and Verification" + "</p>" + 
+"<ol><li>" + "<b>" + "Be sure to check class level assignment after each upload of student grades and transcripts. " + "</b>" + "This will ensure that class levels are always up-to-date and ready for APR." + "</li>" + 
+"<li>" + "To periodically review correct course assignment, please review via the " + "<b>" + "Class Level Report. " + "</b>" + "This can be found at the bottom of the page where class assignments are made. The Class Level Report will list each course in the system and the related level." + "</li>" + 
+"<li>" + "To verify that courses have been assigned to the correct category, or to update a class that is assigned the incorrect class level, select any class level from the " + "<b>" + "Class Level " + "</b>" + "drop down.  Courses assigned to that level (for example " + "<b>" + "Non-Advanced" + "</b>" + ") will appear in the Classes box. If any classes appear in the " + "<b>" + "Classes " + "</b>" + 
+"box, that should not be assigned the level that you selected in the " + "<b>" + "Course Level " + "</b>" + "drop down, you can reassign those classes by following steps 3-6 above." + "</li></ol>" + "<br>" + "<embed width=560 height=315 src=http://www.youtube.com/v/aSNr5sdOoII type=application/x-shockwave-flash> </embed>");
+<!-- Assign Class Level-->
+	s.push("<p>" + "Assigning a class type will identify courses within specific class categories listed on APR. For example, many schools may have a course called MATH 1. However, this course actually covers Pre-Algebra, which needs to be identified in the APR. Assigning a class type will categorize all courses correctly for submission on the APR. The class Type categories include: No Type, Pre-Algebra, Algebra 1, Geometry, Algebra 2, Calculus, Chemistry, Physics, Trigonometry, Pre-Calculus, Biology, Math - Other, Science - Other, English/Language Arts, and N/A. All courses must be assigned a class type, so if the course does not fit into one specific category, it should be assigned N/A." + "</p>" + 
+"<ol><li>" + "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select the " + "<b>" + "Data Center " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Select " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "Class Type." + "</b>" + "</li>" + 
+"<li>" + "Select the school in which you will be assigning classes for. When a school is selected, every class that has been submitted via student transcripts will be listed in the classes box." + "</li>" +  
+"<li>" + "You may also filter by grade level." + "</li>" +  
+"<li>" + "Select " + "<b>" + "No Type " + "</b>" + "from the " + "<b>" + "Course Type " + "</b>" + "drop down." + "</li>" +  
+"<li>" + "Classes without a type assigned will appear in the " + "<b>" + "Classes " + "</b>" + "box." + "</li>" +  
+"<li>" + "Decide on the first category you will assign, for example, " + "<b>" + "Pre-Algebra." + "</b>" + "</li>" +  
+"<li>" + "Select and move any advanced courses from the " + "<b>" + "Classes " + "</b>" + "box to the " + "<b>" + 
+"Assign Type " + "</b>" + "box. You will assign course levels JUST as you would assign students to a service within COMPASS. To move over only selected courses, click the course name followed by the single arrow. You may also select multiple courses by holding down the Ctrl key on your keyboard (command for MAC users) and selecting courses." + "</li>" +  
+"<li>" + "Courses to be assigned " + "<b>" + "Pre-Algebra " + "</b>" + "will now be located in the " + "<b>" + "Assign Type." + "</b>" + "</li>" +   
+"<li>" + "Select the level to assign to the courses from the " + "<b>" + "Type to Assign " + "</b>" + "drop down." + "</li>" + 
+"<li>" + "Click " + "<b>" + "UPDATE" + "</b>" + ". Now your courses have been assigned a level." + "</li>" + 
+"<li>" + "Repeat this process with each level, ensuring there are no classes left in the " + "<b>" + "No Type " + "</b>" + "category. All courses should have a type assigned to them." + "</li/ol>" + 
+"<p>" + "Course Level Review and Verification" + "</p>" + 
+"<ol start=4><li>" + "<b>" + "Be sure to check class type assignment after each upload of student grades and transcripts. " + "</b>" + "This will ensure that class levels are always up-to-date and ready for APR." + "</li>" +  
+"<li>" + "To periodically review correct course assignment, please review via the " + "<b>" + "Class Type Report" + "</b>" + ". This can be found at the bottom of the page where class assignments are made. The Class Type Report will list each course in the system and the related type." + "</li>" +  
+"<li>" + "To verify that courses have been assigned to the correct category, or to update a class that is assigned the incorrect class type, select any class type from the " + "<b>" + "Class Type " + "</b>" + "drop down.  Courses assigned to that level (for example " + "<b>" + "Algebra 1" + "</b>" + ") will appear in the " + "<b>" + "Classes " + "</b>" + "box. If any classes appear in the " + "<b>" + "Classes " + "</b>" + "box, that should not be assigned the level that you selected in the " + "<b>" + "Course Type " + "</b>" + "drop down, you can reassign those classes by following steps 3-6 above." + "</li/ol>" + "<br>" + "<embed width=560 height=315 src=http://www.youtube.com/v/aSNr5sdOoII type=application/x-shockwave-flash> </embed>");
+<!--Add a Student Service to Student Service Category Dropdown-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select the System Utility link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" +
+"<li>" + "Click " + "<b>" + "Modify " + "</b>" + "next to  " + "<b>" + "Student Services. " + "<b></li>" + 
+"<li>" + "Enter information under " + "<b>" + "Add Student Service Type " + "</b>" + "for the new student service." + "</li>" +
+"<li>" + "Click " + "<b>" + "Enter. " + "<b></li></ol>");
+<!--Add a Student Service Subcategory to Service Subcategory Dropdown-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + "System Utility " + "</b>" + "link under the " + "<b>" + "System Tools  " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Modify " + "</b>" + "next to " + "<b>" + "Student Services Subcategory. " + "</b></li>" +
+"<li>" + "Choose the service that the subcategory will apply to." + "</li>" + 
+"<li>" + "Enter the name of the subcategory under " + "<b>" + "Add Subcategory." + "</b></li>" + 
+"<li>" + "Click " + "<b>" + "Enter" + "</b>" + ". " + "</li></ol>");
+<!--Add a Student Group from System Utility-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + "System Utility " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "Student Group" + "</b>" + ". " + "</li>" +
+"<li>" + "Enter the name of the group and the school under " + "<b>" + "Add Group" + "</b>" + "." + "</li>" +
+"<li>" + "Click " + "<b>" + "Enter" + "</b>" + ". " + "</li></ol>"
+);
+<!--Add a Parent Service Category to Parent Services Dropdown-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the System Utility link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" +
+"<li>" + "Click " + "<b>" + "Modify " + "</b>" + "next to " + "<b>" + "Parent Services" + "</b>" + ". " + "</li>" + 
+"<li>" + "Enter information under " + "<b>" + "Add Parent Service Type " + "</b>" + "for the new parent service." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Enter" + "</b>" + ". " + "</li></ol>"
+);
+<!--Add a Parent Service Subcategory to Parent Services Subcategory Dropdown-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + "System Utility " + "</b>" + "link under the " + "<b>" + " System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Modify " + "</b>" + "next to " + "<b>" + "Parent Services Subcategory" + "</b>" + ". " + "</li>" +
+"<li>" + "Choose the service that the subcategory will apply to." + "</li>" +
+"<li>" + "Enter the name of the subcategory under " + "<b>" + "Add Subcategory" + "</b>" + "." + "</li>" +
+"<li>" + "Click " + "<b>" + "Enter" + "</b>" + ". " + "</li></ol>"
+);
+<!--Add a Parent Group from System Utility-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + "System Utility " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "Parent Group" + "</b>" + ". " + "</li>" + 
+"<li>" + "Enter the name of the group and the school under " + "<b>" + "Add Group" + "</b>" + "." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Enter" + "</b>" + ". " + "</li></ol>"
+);
+<!--Add an Instructor Discipline-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + "System Utility " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "Discipline" + "</b>" + ". " + "</li>" + 
+"<li>" + "Enter the name of the discipline under " + "<b>" + "Add Discipline" + "</b>" + "." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Enter" + "</b>" + ". " + "</li></ol>"
+);
+<!--Add Training To Instructor Services Dropdown-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + "System Utility " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Modify " + "</b>" + "next to " + "<b>" + "Staff Development Training" + "</b>" + ". " + "</li>" + 
+"<li>" + "Enter the name of the instructor training under " + "<b>" + "Add Training" + "</b>" + "." + "</li>" + 
+"<li>" + "The order of the dropdown list may also be arranged by using the " + "<b>" + "Up " + "</b>" + "or " + "<b>" + "Down " + "</b>" + "buttons to the left of each training name under the heading " + "<b>" + "Adjust Order" + "</b>" + ". " + "</li>" + 
+"<li>" + "Click " + "<b>" + "Enter" + "</b>" + ". " + "</li></ol>");
+<!--Create a School, District,  Region, or College -->  
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + "System Utility " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Select " + "<b>" + "Modify " + "</b>" + "next to " + "<b>" + "District, School, Region, " + "</b>" + "or " + "<b>" + "College" + "</b>" + "." + "</li>" +
+"<li>" + "Within type the name of the new district, school or region." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Enter" + "</b>" + "." + "</li></ol>"
+);
+<!--Assign Schools to Districts-->
+	s.push("<p>" + "District must be in the system before schools can be assigned." + "</p>" + 
+"<ol><li>" + "From the " + "<b>" + "Student Information (Home) " + "</b>" + "page, select the " + "<b>" + 
+"System Utility " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Select " + "<b>" + "Modify " + "</b>" + "next to " + "<b>" + "School-District Assignments." + "</b>" + "</li>" + 
+"<li>" + "At the top, select the district you would like to assign schools to. All schools within your system will appear in the " + "<b>" + "Unassigned " + "</b>" + "box." + "</li>" + 
+"<li>" + "To move over and assign ALL schools in the " + "<b>" + "Unassigned " + "</b>" + "box, click the double arrow." + "</li>" +  
+"<li>" + "To move over only selected schools in the " + "<b>" + "Unassigned " + "</b>" + "box, click the school name followed by the single arrow. You may also select multiple schools by holding down the Ctrl key on your keyboard (command for MAC users) and selecting the school, then clicking the singe arrow." + "</li>" + 
+"<li>" + "Schools to be assigned to the district will now be located in the " + "<b>" + "Assigned " + "</b>" + "box." + "</li>" +  
+"<li>" + "Click " + "<b>" + "Save." + "</b>" + "</li></ol>");
+<!--Assign Districts to Regions-->
+	s.push("Region must be in the system before schools can be assigned." + "<br><br>" +
+"<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + " System Utility " + "</b>" + "link under the " + "<b>" + " System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Select " + "<b>" + "Modify " + "</b>" + "next to " + "<b>" + "District-Region Assignments" + "</b>" + "." + "</li>" + 
+"<li>" + "At the top, select the district you would like to assign schools to. All schools within your system will appear in the " + "<b>" + "Unassigned " + "</b>" + " box." + "</li>" + 
+"<li>" + "To move over and assign ALL schools in the " + "<b>" + "Unassigned " + "</b>" + "box, click the double arrow. " + "</li>" + 
+"<li>" + "To move over only selected schools in the " + "<b>" + "Unassigned " + "</b>" + "box, click the school name followed by the single arrow. You may also select multiple schools by holding down the Ctrl key on your keyboard (command for MAC users) and selecting the school, then clicking the single arrow." + "</li>" + 
+"<li>" + "Schools to be assigned to the district will now be located in the " + "<b>" + "Assigned " + "</b>" + "box. " + "</li>" + 
+"<li>" + "Click " + "<b>" + "Save" + "</b>" + ". " + "</li></ol>");
+<!--Add a Scholarship or Financial Aid Type-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + "System Utility" + "</b>" + " link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Modify " + "</b>" + "next to " + "<b>" + "Scholarship Financial Aid Type" + "</b>" + ". " + "</li>" + 
+"<li>" + "Under " + "<b>" + "Add Scholarship and Financial Aid Type" + "</b>" + ", add the title of the scholarship or financial aid in the box provided. " + "</li>" + 
+"<li>" + "Click " + "<b>" + "Enter" + "</b>" + "." + "</li></ol>"
+);
+<!--Add/Edit Class Information-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the" + "<b>" + " System Utility " + "</b>" + "link under the " + "<b>" + " System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Click " + "<b>" + " Modify " + "</b>" + "next to " + "<b>" + " Class Information" + "</b>" + "." + "</li>" +  
+"<li>" + "Under " + "<b>" + "Add Class" + "</b>" + ", enter the " + "<b>" + "Title" + "</b>" + ", " + "<b>" + "Level" + "</b>" + ", " + "<b>" + "APR category" + "</b>" + ", number of " + "<b>" + "credits/units" + "</b>" + ", and " + "<b>" + "school " + "</b>" + "information for the class. " + "</li>" + 
+"<li>" + "Click " + "<b>" + "Enter" + "</b>" + ". " + "</li></ol>"
+);
+<!--Export Data into an Excel or Text File-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + "Data Center" + "</b>" + " link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "Data Export" + "</b>" + ". " + "</li>" + 
+"<li>" + "Select the table name for the data you want to export. Data elements available in the selected table will appear in the selected box. " + "</li>" + 
+"<li>" + "Unselect any elements you do not want to appear in your data export by highlighting the data elements and clicking the single arrow. " + "</li>" + 
+"<li>" + "Click " + "<b>" + "Export as Excel " + "</b>" + "or " + "<b>" + "Export as Text" + "</b>" + "." + "</li>" + 
+"<li>" + "The data will download to your computer as the file type you determined. " + "</li></ol>");
+<!--Change a Student's Primary ID-->
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + "System Utility" + "</b>" + " link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Modify " + "</b>" + "next to " + "<b>" + "Change Primary Student ID" + "</b>" + ". " + "</li>" + 
+"<li>" + "Under " + "<b>" + "Change Primary Student ID " + "</b>" + "select the school year, school where the student attends, and the student's name. The students existing Primary ID will appear. " + "</li>" + 
+"<li>" + "Add the new ID in the " + "<b>" + "New Primary ID box" + "</b>" + ". " + "</li>" + 
+"<li>" + "Click " + "<b>" + "Modify" + "</b>" + ". " + "</li></ol>"
+);
+<!--Add a School Year End Date-->
+	s.push("End dates are added to school history to indicate a student has completed a school year, and rolled over to a new school year. Do NOT add end dates until the school year is completely over and you are ready to work in a new school year. Students with end dates will appear as inactive in the school year indicated. " + "<br><br>" + 
+"<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + "System Utility " + "</b>" + "link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "End Dates" + "</b>" + ". " + "</li>" + 
+"<li>" + "Under " + "<b>" + "End Dates" + "</b>" + " select the school year in which the end date will apply, the school, and the end date. " + "</li>" + 
+"<li>" + "Click " + "<b>" + "Ok" + "</b>" + ". " + "</li></ol>"
+);
+<!--Add an End Reason for Student School History -->
+	s.push("End reasons are required when a student is made inactive and given an end date in the system." + "<br><br>" + 
+"<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + "System Utility" + "</b>" + " link under the " + "<b>" + "System Tools" + "</b>" + " section on the right." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Go" + "</b>" + " next to " + "<b>" + "End Reason" + "</b>" + ". " + "</li>" + 
+"<li>" + "Under " + "<b>" + "End Reason" + "</b>" + " add a new end reason in the box provided. " + "</li>" + 
+"<li>" + "Click " + "<b>" + "Save" + "</b>" + ".  " + "</li></ol>");
+<!--Review User Status--> 
+	s.push("<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + "System Utility" + "</b>" + " link under the " + "<b>" + "System Tools" + "</b>" + " section on the right." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Go" + "</b>" + " next to " + "<b>" + "User Status" + "</b>" + ". " + "</li>" + 
+"<li>" + "Enter information of the user." + "</li>" + 
+"<li>" + "Click " + "<b>" + "Search" + "</b>" + ".  " + "</li></ol>"
+);
+<!--Resend a Confirmation Email to a New User-->
+	s.push("If a system invite has been sent to a user and the user cannot locate the email, a new email can be re-sent.  " + "<br><br>" + 
+"<ol><li>" + "From the " + "<b>" + "Student Information (Home) page" + "</b>" + ", select the " + "<b>" + "System Utility" + "</b>" + " link under the " + "<b>" + "System Tools " + "</b>" + "section on the right." + "</li>" +
+"<li>" + "Click " + "<b>" + "Go " + "</b>" + "next to " + "<b>" + "Resend Confirmation Mail" + "</b>" + ". " + "</li>" +
+"<li>" + "If a user has not been activated, the username will be listed in the box. " + "</li>" +
+"<li>" + "Click " + "<b>" + "Resend" + "</b>" + ".  " + "</li></ol>");
+	
+	t.push("View Student Information");
+	t.push("Add Student Academic Information");
+	t.push("Edit Student Information");
+	t.push("Add a New Student");
+	t.push("Make a Student Inactive");
+	t.push("Search for a Student");
+	t.push("Search an Inactive Student");
+	t.push("Reactivate a Student");
+	t.push("Add a Student Group");
+	t.push("Add a Student to an Existing Student Group");
+	t.push("Enter Services to Students");
+	t.push("View and Enter Student Services from Services Tab");
+	t.push("Enter Services to Student Groups");
+	t.push("Edit or Update a Student Service Entry");
+	t.push("Add Student Academic Information via Batch Entry");
+	t.push("Add a New Parent and Assign to Student");
+	t.push("Assign an Existing Parent to a Student");
+	t.push("Enter Services to Parents");
+	t.push("Edit or Update a Parent Service Entry");
+	t.push("Add a Parent Group");
+	t.push("Add a Student to an Existing Parent Group");
+	t.push("Add an Instructor");
+	t.push("Enter Services to Instructors");
+	t.push("How to Edit or Update a Instructor Service Entry");
+	t.push("Add New Users to Compass");
+	t.push("Inactivate a User");
+	t.push("Unlock a User");
+	t.push("Retrieve Your Password");
+	t.push("Change Your Password");
+	t.push("Add Announcements");
+	t.push("Email All Users");
+	t.push("Upload a File");
+	t.push("Activate Non-Working Buttons/Icons");
+	t.push("Assign Class Level");
+	t.push("Assign Class Type");
+	t.push("Add a Student Service to Student Service Category Dropdown");
+	t.push("Add a Student Service Subcategory to Service Subcategory Dropdown");
+	t.push("Add a Student Group from System Utility");
+	t.push("Add a Parent Service Category to Parent Services Dropdown");
+	t.push("Add a Parent Service Subcategory to Parent Services Subcategory Dropdown");
+	t.push("Add a Parent Group from System Utility");
+	t.push("Add an Instructor Discipline");
+	t.push("Add Training To Instructor Services Dropdown");
+	t.push("Create a School, District,  Region, or College ");  
+	t.push("Assign Schools to Districts");
+	t.push("Assign Districts to Regions");
+	t.push("Add a Scholarship or Financial Aid Type");
+	t.push("Add/Edit Class Information");
+	t.push("Export Data into an Excel or Text File");
+	t.push("Change a Student's Primary ID");
+	t.push("Add a School Year End Date");
+	t.push("Add an End Reason for Student School History ");
+	t.push("Review User Status"); 
+	t.push("Resend a Confirmation Email to a New User");	
+</script>
+</head>
+
+<body>
+	<div id="header_2">
+        <div id="nav">
+            <a href="index.html" ><img src="img/banner1.gif" align="center" height=114px></a>
+		</div>
+    	    <a href="FAQ.html" > e-Manual </a>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="FAQ_contact.html"> Contact Us</a>
+</div>
+    <div id="body_content">
+    <h1>e-Manual</h1>
+	<div>
+          <input name="search" type="text" size="37" id="textField1"/>
+        <button type="button" onclick="searchFAQ()">Search</button>    
+    </div>
+<div id="Accordion1" class="Accordion" tabindex="0">
+		  <div class="AccordionPanel">        
+		    <div class="AccordionPanelTab">Student and Student Services
+            </div>
+		    <div class="AccordionPanelContent">
+                <p onclick="displayContent(0)">
+                        View Student Information
+                </p>
+                <p onclick="displayContent(1)">
+                        Add Student Academic Information
+                </p>
+                <p onclick="displayContent(2)">
+                        Edit Student Information
+                </p>
+                <p onclick="displayContent(3)">
+                        Add a New Student
+                </p>
+                <p onclick="displayContent(4)">Make a Student Inactive
+                </p>
+            	<p onclick="displayContent(5)"> Search for a Student
+                </p>
+                <p onclick="displayContent(6)">
+Search an Inactive Student                        
+                </p>
+
+	            <p onclick="displayContent(7)">Reactivate a Student
+                </p>
+            	<p onclick="displayContent(8)">Add a Student Group
+                </p>
+            	<p onclick="displayContent(9)">Add a Student to an Existing Student Group
+                </p>
+            	<p onclick="displayContent(10)">Enter Services to Students
+                </p>
+            	<p onclick="displayContent(11)">View and Enter Student Services from Services Tab
+                </p>
+
+            	<p onclick="displayContent(12)">Enter Services to Student Groups
+                </p>
+            	<p onclick="displayContent(13)">
+                	Edit or Update a Student Service Entry
+                </p>
+               	<p onclick="displayContent(14)">
+	                Add Student Academic Information via Batch Entry
+                </p>
+		</div>
+  </div>
+		  <div class="AccordionPanel">
+		    <div class="AccordionPanelTab">Parents and Parent Services</div>
+            <div class="AccordionPanelContent">
+            	<p onclick="displayContent(15)">
+                	Add a New Parent and Assign to Student
+                </p>
+            	<p onclick="displayContent(16)">
+                	Assign an Existing Parent to a Student
+                </p>
+            	<p onclick="displayContent(17)">
+                	Enter Services to Parents
+                </p>
+            	<p onclick="displayContent(18)">
+                	Edit or Update a Parent Service Entry
+                </p>
+            	<p onclick="displayContent(19)">
+                	Add a Parent Group
+                </p>                
+            	<p onclick="displayContent(20)">
+                	Add a Student to an Existing Parent Group
+                </p>                
+                
+            </div>                                      
+          </div>
+		  <div class="AccordionPanel">
+		    <div class="AccordionPanelTab">Instructor and Instructor Services</div>
+            <div class="AccordionPanelContent">
+            	<p onclick="displayContent(21)">
+                	Add an Instructor
+                </p>
+            	<p onclick="displayContent(22)">
+                	Enter Services to Instructors
+                </p>
+            	<p onclick="displayContent(23)">
+                	How to Edit or Update a Instructor Service Entry
+                </p>
+                
+            </div>                                      
+          </div>
+		  <div class="AccordionPanel">
+		    <div class="AccordionPanelTab">User Information and Settings</div>
+            <div class="AccordionPanelContent">
+            	<p onclick="displayContent(24)">
+                	Add New Users to Compass
+                </p>
+            	<p onclick="displayContent(25)">
+                	Inactivate a User
+                </p>
+            	<p onclick="displayContent(26)">
+                	Unlock a User
+                </p>
+            	<p onclick="displayContent(27)">
+                	Retrieve Your Password
+                </p>
+            	<p onclick="displayContent(28)">
+                	Change Your Password
+                </p>
+                <p onclick="displayContent(29)">
+                	Add Announcements
+                </p>
+                <p onclick="displayContent(30)">
+                	Email All Users
+                </p>
+            </div>                                      
+          </div>     
+          <div class="AccordionPanel">
+		    <div class="AccordionPanelTab">System General Information and Settings</div>
+            <div class="AccordionPanelContent">
+            	<p onclick="displayContent(31)">
+                	Upload a File
+                </p>
+            	<p onclick="displayContent(32)">
+                	Activate Non-Working Buttons/Icons
+                </p>
+            	<p onclick="displayContent(33)">
+                	Assign Class Level
+                </p>
+            	<p onclick="displayContent(34)">
+                	Assign Class Type
+                </p>
+            </div>                  
+          </div>  
+          <div class="AccordionPanel">
+		    <div class="AccordionPanelTab">Administrator System Tools</div>
+            <div class="AccordionPanelContent">
+            	<p onclick="displayContent(35)">
+                	Add a Student Service to Student Service Category Dropdown
+                </p>
+            	<p onclick="displayContent(36)">
+                	Add a Student Service Subcategory to Service Subcategory Dropdown
+                </p>
+            	<p onclick="displayContent(37)">
+                	Add a Student Group from System Utility
+                </p>
+            	<p onclick="displayContent(38)">
+                	Add a Parent Service Category to Parent Services Dropdown
+                </p>
+            	<p onclick="displayContent(39)">
+                	Add a Parent Service Subcategory to Parent Services Subcategory Dropdown
+                </p>
+            	<p onclick="displayContent(40)">
+                	Add a Parent Group from System Utility
+                </p>
+            	<p onclick="displayContent(41)">
+                	Add an Instructor Discipline
+                </p>
+            	<p onclick="displayContent(42)">
+                	Add Training To Instructor Services Dropdown
+                </p>
+            	<p onclick="displayContent(43)">
+                	Create a School, District,  Region, or College   
+                </p>
+            	<p onclick="displayContent(44)">
+                	Assign Schools to Districts
+                </p>
+            	<p onclick="displayContent(45)">
+                	Assign Districts to Regions
+                </p>
+            	<p onclick="displayContent(46)">
+                	Add a Scholarship or Financial Aid Type
+                </p>
+            	<p onclick="displayContent(47)">
+                	Add/Edit Class Information
+                </p>
+            	<p onclick="displayContent(48)">
+                	Export Data into an Excel or Text File
+                </p>
+            	<p onclick="displayContent(49)">
+                	Change a Student's Primary ID
+                </p>
+            	<p onclick="displayContent(50)">
+                	Add a School Year End Date
+                </p>
+                <p onclick="displayContent(51)">
+                	Add an End Reason for Student School History 
+                </p>
+            	<p onclick="displayContent(52)">
+                	Review User Status 
+                </p>
+            	<p onclick="displayContent(53)">
+                	Resend a Confirmation Email to a New User
+                </p>                  
+            </div>                  
+          </div>                     
+</div>
+
+	<div id="faq_content">
+        <p id="faq_title">
+            
+        </p>
+        
+        <p id="faq_text">
+            
+        </p>
+    
+        <p id="faq_picture">
+	        
+        </p>
+	</div>
+    
+<script>
+
+	function displayContent(i)
+	{
+		var j = "<img src=img/" + i + ".jpg>";
+		var k = "<h3>" + t[i] + "</h3>";
+		document.getElementById("faq_title").innerHTML = k;
+		document.getElementById("faq_text").innerHTML = s[i];
+		document.getElementById("faq_picture").innerHTML = j;
+	}
+	
+	function searchFAQ()
+	{
+		var j = [];
+		var k = document.getElementById("textField1").value;
+		var l = "";
+		var displayCategory1 = true;
+		var displayCategory2 = true;		
+		var displayCategory3 = true;
+		var displayCategory4 = true;
+		var displayCategory5 = true;
+		var displayCategory6 = true;		
+								
+		document.getElementById("faq_picture").innerHTML = j;
+		
+		for (var i = 0; i < s.length; i++)
+		{
+			if (s[i].search(k) >= 0)
+			{
+				j.push(i);
+				// document.write(k + " " + s[i] + "! " + i);
+			}
+			
+			else
+			{
+				
+			}
+		}
+		
+		if (j.length == 0)
+		{
+			document.getElementById("faq_text").innerHTML = "No matches found";
+		}
+		
+		else
+		{
+			l = j.length + " matches found" + "<br>" + "<br>";
+			
+			for (var i = 0; i < j.length; i++)
+			{
+				<!-- Student and Student Services-->
+				if (j[i] < 15 && displayCategory1)
+				{
+					l = l + "<h3>" + "Student and Student Services" + "</h3>";	
+					l = l + "&nbsp;&nbsp;&nbsp;&nbsp;" + "<a href=# onclick=displayContent(" + j[i] + ")>" + t[ j[i] ] + "</a>" + "<br>";
+					displayCategory1 = false;
+				}
+				
+				<!-- Parents and Parent Services-->				
+				else if (j[i] >= 15 && j[i] < 21 && displayCategory2)
+				{
+					l = l + "<h3>" + "Parents and Parents Services" + "</h3>";	
+					l = l + "&nbsp;&nbsp;&nbsp;&nbsp;" + "<a href=# onclick=displayContent(" + j[i] + ")>" + t[ j[i] ] + "</a>" + "<br>";
+					displayCategory2 = false;
+				}
+				
+				<!-- Instructor and Instructor Services-->				
+				else if (j[i] >= 21 && j[i] < 24 && displayCategory3)
+				{
+					l = l + "<h3>" + "Instructor and Instructor Services" + "</h3>";	
+					l = l + "&nbsp;&nbsp;&nbsp;&nbsp;" + "<a href=# onclick=displayContent(" + j[i] + ")>" + t[ j[i] ] + "</a>" + "<br>";
+					displayCategory3 = false;
+				}
+
+				<!-- User Information and Settings-->				
+				else if (j[i] >= 24 && j[i] < 31 && displayCategory4)
+				{
+					l = l + "<h3>" + "User Information and Setttings" + "</h3>";	
+					l = l + "&nbsp;&nbsp;&nbsp;&nbsp;" + "<a href=# onclick=displayContent(" + j[i] + ")>" + t[ j[i] ] + "</a>" + "<br>";
+					displayCategory4 = false;
+				}
+				
+				<!-- System General Information and Settings-->				
+				else if (j[i] >= 31 && j[i] < 35 && displayCategory5)
+				{
+					l = l + "<h3>" + "System General Information and Settings" + "</h3>";
+					l = l + "&nbsp;&nbsp;&nbsp;&nbsp;" + "<a href=# onclick=displayContent(" + j[i] + ")>" + t[ j[i] ] + "</a>" + "<br>";	
+					displayCategory5 = false;
+				}
+				
+				<!-- Administrator System Tools-->
+				else if (j[i] >= 35 && j[i] < 54 && displayCategory6)
+				{
+					l = l + "<h3>" + "Administrator System Tools" + "</h3>";
+					l = l + "&nbsp;&nbsp;&nbsp;&nbsp;" + "<a href=# onclick=displayContent(" + j[i] + ")>" + t[ j[i] ] + "</a>" + "<br>";	
+					displayCategory6 = false;
+				}
+				
+				else
+				{
+					l = l + "&nbsp;&nbsp;&nbsp;&nbsp;" + "<a href=# onclick=displayContent(" + j[i] + ")>" + t[ j[i] ] + "</a>" + "<br>";
+				}
+			}
+			
+			document.getElementById("faq_text").innerHTML = l;
+		}
+	}
+
+</script>
+<script type="text/javascript">
+var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+</script>
+</body>
+</html>

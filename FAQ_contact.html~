@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CoBro Consulting</title>
+<link rel="icon" href="img/compass.ico">
+<link href="styles.css" rel="stylesheet" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryValidationTextarea.css" rel="stylesheet" type="text/css" />
+<script>
+	(function(i, s, o, g, r, a, m)
+	{
+		i ['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function()
+				{
+				  (i[r].q = i[r].q||[]).push(arguments)
+				} ,i[r].l = 1*new Date();
+		a = s.createElement (o),
+  		m = s.getElementsByTagName(o) [0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a,m)
+	  }
+	)
+
+	(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-4782508-1', 'cobroconsulting.com');
+  ga('send', 'pageview');
+</script>
+
+</head>
+
+<body>
+	<div id="header_2">
+        <div id="nav">
+            <a href="index.html" ><img src="img/banner1.gif" height=114px/></a>
+		</div>
+<a href="FAQ.html" > e-Manual </a>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="FAQ_contact.html"> Contact US</a>
+    </div>
+    <div id="body_content">
+    <h1>Contact Us</h1>
+	<p>
+    	Contact CoBro Consulting IT Support, so we can assist you. Please submit your questions and errors directly to support@cobroconsulting.com, or contact us by phone toll-free at <a href="888-977-7665">888-977-7665</a>.
+<br>
+<br>
+In order to expedite your service, please provide the following information when emailing the IT support team. 
+    </p>
+    <p>
+    <b>Your contact information</b>. Please provide your name, program name, phone number where we can reach you, and the user name of the person experiencing the error. 
+    </p>
+    <p>
+     <b>A screenshot, or multiple screenshots of your error.</b> You can use the Print Screen button on your keyboard, or there are a variety of online software options you can download to take a screen shot. We suggest Awesome Screenshot. Awesome Screenshot can be downloaded at <a href="http://awesomescreenshot.com/">http://awesomescreenshot.com/></a>
+    </p>
+    <p>
+    <b>A detailed description of the scenario in which you experienced the error.</b> For example, the person who is logged in, the filters selected, specific entries, dates, etc. This information will assist us in trying to re-create the error so we can resolve it. 
+    </p>
+    <p>
+    	<b>The internet browser and version you are using.</b>
+    </p>
+    <p>
+    	<b>Any additional information. </b>Please provide additional information that may assist us in targeting and resolving the issue. 
+    </p>
+</body>
+</html>
